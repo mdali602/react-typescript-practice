@@ -62,7 +62,7 @@ function Users() {
       <h1>Users</h1>
       {/* {error && <p>{error} </p>} */}
       <ul>
-        {users.map((user) => (
+        {mockUsers.map((user) => (
           <UserInfo key={user.id} user={user} />
         ))}
       </ul>
